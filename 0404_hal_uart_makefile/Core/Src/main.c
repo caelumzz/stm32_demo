@@ -73,7 +73,7 @@ int main(void)
   HAL_Init();
 
   /* USER CODE BEGIN Init */
-  RetargetInit(&huart1);
+  RetargetInit(&huart1);  //printf相关功能初始化
 
   /* USER CODE END Init */
 

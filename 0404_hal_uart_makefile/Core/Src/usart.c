@@ -25,7 +25,7 @@
 #define UARTx_BUF_MAX 20
 
 uint8_t uartxRx[UARTx_BUF_MAX]; // 存放接收到的数据
-uint8_t *pUartxRx;              // 指向存认数据的数组
+uint8_t *pUartxRx;              // 指向接收数据数组
 uint16_t uartxRxLength;         // 接收到数据的长度
 
 /* USER CODE END 0 */
