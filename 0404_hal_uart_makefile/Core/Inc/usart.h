@@ -39,9 +39,9 @@ extern UART_HandleTypeDef huart1;
 /* USER CODE END Private defines */
 
 void MX_USART1_UART_Init(void);
-void USART_UartInit(void);
-/* USER CODE BEGIN Prototypes */
 
+/* USER CODE BEGIN Prototypes */
+void USART_UartInit(void);
 /* USER CODE END Prototypes */
 
 #ifdef __cplusplus
